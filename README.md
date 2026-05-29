@@ -1,8 +1,6 @@
 # aravindhbAR-hash.github.io
 
-Personal portfolio website for **Aravindhan Baskaran** — Data Analyst.
-
-Built with HTML & CSS and hosted on GitHub Pages.
+Personal portfolio website for **Aravindhan Baskaran** .
 
 ## 🔗 Live Site
 [aravindhbAR-hash.github.io](https://aravindhbAR-hash.github.io)
