@@ -64,9 +64,9 @@
       margin-bottom: 1.4rem;
     }
     .photo-circle {
-      width: 88px; height: 88px;
+      width: 108px; height: 108px;
       border-radius: 50%;
-      border: 2px solid rgba(255,255,255,0.12);
+      border: 2px solid rgba(255,255,255,0.15);
       background: var(--side-bg2);
       overflow: hidden;
       display: flex;
@@ -79,7 +79,9 @@
     .photo-circle img {
       width: 100%; height: 100%;
       object-fit: cover;
-      display: none; /* show once you add your photo src */
+      object-position: center 15%;
+      display: block;
+      image-rendering: -webkit-optimize-contrast;
     }
     .photo-placeholder {
       display: flex;
@@ -525,7 +527,7 @@
     Projects
   </a>
 
- <a href="Aravindhan_Baskaran_Resume.pdf" download="Aravindhan_Baskaran_Resume_Co-op.pdf" target="_blank" class="nav-btn">
+ <a href="Aravindhan_Baskaran_Resume_Co-op.pdf" download="Aravindhan_Baskaran_Resume_Co-op.pdf" target="_blank" class="nav-btn">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
       <polyline points="14 2 14 8 20 8"/>
